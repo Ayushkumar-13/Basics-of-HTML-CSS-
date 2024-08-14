@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #303952;
+    color: #333;
+}
+
+header {
+    background-color: #2a2626;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: darkgoldenrod;
+    background-color: white;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section {
+    margin: 10px 20px;
+    padding: 20px;
+    color: #f4f4f4;
+}
+
+.introduction-section {
+    background-color: #F8b195;
+    color: aliceblue;
+    text-align: center;
+}
+
+.analysis-section {
+    background-color: #f67280;
+    text-align: center;
+}
+
+.basic-dsa-section {
+    background-color: #675B7B;
+    text-align: center;
+}
+
+.basic-dsa-section p {
+    background-color: rgb(237, 237, 147);
+    padding: 10px;
+    color: black;
+}
+
+.advanced-dsa-section {
+    background-color: #355C7D;
+    text-align: center;
+    padding: 20px;
+}
+
+.advanced-dsa-section .spn {
+    color: blue;
+    background-color: rgb(209, 207, 208);
+}
+
+.advanced-dsa-section .auto {
+    background-color: aliceblue;
+    margin: 20px auto;
+}
+
+.training-info {
+    background-color: aquamarine;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.training-info img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar {
+    background-color: darkslategrey;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+.footer {
+    background-color: rgb(35, 32, 32);
+    color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .section {
+        margin: 5px 10px;
+        padding: 15px;
+    }
+
+    .training-info img {
+        width: 80%;
+    }
+}
